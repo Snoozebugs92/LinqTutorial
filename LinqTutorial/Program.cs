@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using LinqTutorial.MethodSyntax;
 
 namespace LinqTutorial
@@ -51,7 +53,8 @@ namespace LinqTutorial
             //OTHERS
             //DotNet6Improvements.Run();
 
-            Console.ReadKey();
+
+            //Console.ReadKey();
         }
     }
 }
