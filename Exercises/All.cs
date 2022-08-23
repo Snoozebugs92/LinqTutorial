@@ -11,8 +11,7 @@ namespace Exercises
         //which checks if all numbers in the collection are divisible by 10.
         public static bool AreAllNumbersDivisibleBy10(int[] numbers)
         {
-            //TODO your code goes here
-            throw new NotImplementedException();
+            return numbers.All(n => n % 10 == 0);
         }
 
         //Coding Exercise 2
