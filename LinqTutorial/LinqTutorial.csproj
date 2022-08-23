@@ -6,6 +6,44 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Examples\**" />
+    <EmbeddedResource Remove="Examples\**" />
+    <None Remove="Examples\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Examples\Aggregate.cs" />
+    <Compile Include="Examples\All.cs" />
+    <Compile Include="Examples\Any.cs" />
+    <Compile Include="Examples\Average.cs" />
+    <Compile Include="Examples\ConcatUnion.cs" />
+    <Compile Include="Examples\Contains.cs" />
+    <Compile Include="Examples\Count.cs" />
+    <Compile Include="Examples\Distinct.cs" />
+    <Compile Include="Examples\DotNet6Improvements.cs" />
+    <Compile Include="Examples\ElementAt.cs" />
+    <Compile Include="Examples\FirstLast.cs" />
+    <Compile Include="Examples\GeneratingNewCollection.cs" />
+    <Compile Include="Examples\GroupBy.cs" />
+    <Compile Include="Examples\GroupJoin.cs" />
+    <Compile Include="Examples\IntersectExcept.cs" />
+    <Compile Include="Examples\Joins.cs" />
+    <Compile Include="Examples\MinMax.cs" />
+    <Compile Include="Examples\OfType.cs" />
+    <Compile Include="Examples\OrderBy.cs" />
+    <Compile Include="Examples\PrependAppend.cs" />
+    <Compile Include="Examples\Select.cs" />
+    <Compile Include="Examples\SelectMany.cs" />
+    <Compile Include="Examples\SingleElement.cs" />
+    <Compile Include="Examples\Skip.cs" />
+    <Compile Include="Examples\Sum.cs" />
+    <Compile Include="Examples\Take.cs" />
+    <Compile Include="Examples\TypeSwitching.cs" />
+    <Compile Include="Examples\Where.cs" />
+    <Compile Include="Examples\Zip.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
   </ItemGroup>
 

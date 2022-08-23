@@ -7,10 +7,12 @@ namespace LinqTutorial
     {
         static void Main(string[] args)
         {
+
+
             //METHOD SYNTAX
 
             //Any.Run();
-            //All.Run();
+            All.Run();
             //Count.Run();
             //Contains.Run();
             //OrderBy.Run();
