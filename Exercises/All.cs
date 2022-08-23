@@ -19,8 +19,10 @@ namespace Exercises
         //if all Pets in the collection are of the same PetType.
         public static bool AreAllPetsOfTheSameType(IEnumerable<Pet> pets)
         {
-            //TODO your code goes here
-            throw new NotImplementedException();
+            return
+                pets.All(pet => pet.PetType == PetType.Dog) ||
+                pets.All(pet => pet.PetType == PetType.Cat) ||
+                pets.All(pet => pet.PetType == PetType.Fish);
         }
 
         //Refactoring challenge
