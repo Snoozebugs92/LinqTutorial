@@ -6,7 +6,7 @@ namespace Exercises
 {
     public static class All
     {
-        //Coding Exercise 1
+        //Coding Exercise 1afvjksdhbjkasdfvbckj
         //Use LINQ to implement the AreAllNumbersDivisibleBy10 method,
         //which checks if all numbers in the collection are divisible by 10.
         public static bool AreAllNumbersDivisibleBy10(int[] numbers)
@@ -14,7 +14,7 @@ namespace Exercises
             return numbers.All(number => number % 10 == 0);
         }
 
-        //Coding Exercise 2
+        //Coding Exercise 2kasdfgvfkhjvgasdjkgfv
         //Using LINQ, implement the AreAllPetsOfTheSameType method that checks
         //if all Pets in the collection are of the same PetType.
         public static bool AreAllPetsOfTheSameType(IEnumerable<Pet> pets)
@@ -28,8 +28,7 @@ namespace Exercises
         //TODO implement this method
         public static bool AreAllWordsOfTheSameLength_Refactored(List<string> words)
         {
-            //TODO your code goes here
-            throw new NotImplementedException();
+            return !words.Any() || words.All(word => word.Length == words[0].Length);
         }
 
         //do not modify this method
