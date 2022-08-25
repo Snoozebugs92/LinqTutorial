@@ -6,6 +6,7 @@ namespace Exercises
 {
     public static class GeneratingNewCollection
     {
+        //henk is ExecutionEngineException hond
         //Coding Exercise 1
         /*
          Implement the NewYearsEvesSince method, which given an initialYear and 
